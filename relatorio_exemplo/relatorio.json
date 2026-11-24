@@ -1,0 +1,4369 @@
+{
+  "gerado_em": "19/11/2026 09:11",
+  "pasta": "samples_teste",
+  "arquivos_varridos": 22,
+  "arquivos_com_pessoais": 16,
+  "arquivos_com_achados": 18,
+  "arquivos_com_sensiveis": 11,
+  "arquivos_ignorados": 1,
+  "total_achados": 510,
+  "ner": true,
+  "por_tipo": [
+    [
+      "Nome de pessoa",
+      142
+    ],
+    [
+      "CPF",
+      98
+    ],
+    [
+      "Telefone",
+      50
+    ],
+    [
+      "Data de nascimento",
+      42
+    ],
+    [
+      "E-mail",
+      38
+    ],
+    [
+      "Saúde",
+      36
+    ],
+    [
+      "CEP",
+      34
+    ],
+    [
+      "RG",
+      29
+    ],
+    [
+      "Endereço",
+      18
+    ],
+    [
+      "Convicção religiosa",
+      14
+    ],
+    [
+      "Origem racial ou étnica",
+      2
+    ],
+    [
+      "CNPJ",
+      2
+    ],
+    [
+      "Vida sexual / orientação sexual",
+      1
+    ],
+    [
+      "Dado biométrico ou genético",
+      1
+    ],
+    [
+      "Placa de veículo",
+      1
+    ],
+    [
+      "Filiação sindical",
+      1
+    ],
+    [
+      "Opinião política / filiação partidária",
+      1
+    ]
+  ],
+  "arquivos": [
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "pessoais": 8,
+      "sensiveis": 2,
+      "potenciais": 0,
+      "pontuacao": 28,
+      "risco": "Alto",
+      "tipos": "CPF (1), RG (1), Data de nascimento (1), Endereço (1), CEP (1), Telefone (1), E-mail (1), Convicção religiosa (1), Origem racial ou étnica (1), Nome de pessoa (1)"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "pessoais": 60,
+      "sensiveis": 14,
+      "potenciais": 0,
+      "pontuacao": 24,
+      "risco": "Alto",
+      "tipos": "Nome de pessoa (24), Convicção religiosa (13), Data de nascimento (12), Endereço (12), Telefone (12), Origem racial ou étnica (1)"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "pessoais": 4,
+      "sensiveis": 4,
+      "potenciais": 0,
+      "pontuacao": 24,
+      "risco": "Alto",
+      "tipos": "Saúde (3), CPF (1), Data de nascimento (1), E-mail (1), Telefone (1), Dado biométrico ou genético (1)"
+    },
+    {
+      "arquivo": "requerimento_sindical.docx",
+      "pessoais": 3,
+      "sensiveis": 2,
+      "potenciais": 0,
+      "pontuacao": 23,
+      "risco": "Alto",
+      "tipos": "E-mail (1), Telefone (1), Filiação sindical (1), Opinião política / filiação partidária (1), Nome de pessoa (1)"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "pessoais": 7,
+      "sensiveis": 1,
+      "potenciais": 0,
+      "pontuacao": 17,
+      "risco": "Alto",
+      "tipos": "CPF (1), RG (1), Data de nascimento (1), Endereço (1), Telefone (1), E-mail (1), Vida sexual / orientação sexual (1), Nome de pessoa (1)"
+    },
+    {
+      "arquivo": "relato_ocorrencia_01.txt",
+      "pessoais": 6,
+      "sensiveis": 1,
+      "potenciais": 0,
+      "pontuacao": 15,
+      "risco": "Alto",
+      "tipos": "Nome de pessoa (2), CPF (1), Placa de veículo (1), Endereço (1), Telefone (1), Saúde (1)"
+    },
+    {
+      "arquivo": "email_exportado_01.txt",
+      "pessoais": 6,
+      "sensiveis": 1,
+      "potenciais": 0,
+      "pontuacao": 13,
+      "risco": "Alto",
+      "tipos": "Nome de pessoa (3), E-mail (2), Telefone (1), Saúde (1)"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "pessoais": 20,
+      "sensiveis": 12,
+      "potenciais": 0,
+      "pontuacao": 12,
+      "risco": "Alto",
+      "tipos": "Saúde (12), CPF (10), Nome de pessoa (10)"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "pessoais": 15,
+      "sensiveis": 16,
+      "potenciais": 0,
+      "pontuacao": 11,
+      "risco": "Alto",
+      "tipos": "Saúde (16), Nome de pessoa (15)"
+    },
+    {
+      "arquivo": "ata_reuniao_02.txt",
+      "pessoais": 0,
+      "sensiveis": 2,
+      "potenciais": 0,
+      "pontuacao": 10,
+      "risco": "Alto",
+      "tipos": "Saúde (2)"
+    },
+    {
+      "arquivo": "memorando_interno.docx",
+      "pessoais": 0,
+      "sensiveis": 1,
+      "potenciais": 0,
+      "pontuacao": 10,
+      "risco": "Alto",
+      "tipos": "Saúde (1)"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "pessoais": 8,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 8,
+      "risco": "Médio",
+      "tipos": "CPF (1), RG (1), Data de nascimento (1), Endereço (1), CEP (1), Telefone (1), E-mail (1), Nome de pessoa (1)"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "pessoais": 8,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 8,
+      "risco": "Médio",
+      "tipos": "CPF (1), RG (1), Data de nascimento (1), Endereço (1), CEP (1), Telefone (1), E-mail (1), Nome de pessoa (1)"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "pessoais": 150,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 5,
+      "risco": "Médio",
+      "tipos": "CPF (30), Telefone (30), E-mail (30), CEP (30), Nome de pessoa (30)"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "pessoais": 8,
+      "sensiveis": 0,
+      "potenciais": 2,
+      "pontuacao": 4,
+      "risco": "Médio",
+      "tipos": "CPF (3), Nome de pessoa (3), CNPJ (2), CEP (1), Endereço (1)"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "pessoais": 99,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 4,
+      "risco": "Médio",
+      "tipos": "CPF (25), RG (25), Data de nascimento (25), Nome de pessoa (24)"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "pessoais": 47,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 2,
+      "risco": "Baixo",
+      "tipos": "CPF (24), Nome de pessoa (23)"
+    },
+    {
+      "arquivo": "ata_reuniao_01.txt",
+      "pessoais": 3,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 1,
+      "risco": "Baixo",
+      "tipos": "Nome de pessoa (3)"
+    },
+    {
+      "arquivo": "anotacoes_internas_01.txt",
+      "pessoais": 0,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 0,
+      "risco": "Nenhum",
+      "tipos": ""
+    },
+    {
+      "arquivo": "estoque.csv",
+      "pessoais": 0,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 0,
+      "risco": "Nenhum",
+      "tipos": ""
+    },
+    {
+      "arquivo": "estoque.xlsx",
+      "pessoais": 0,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 0,
+      "risco": "Nenhum",
+      "tipos": ""
+    },
+    {
+      "arquivo": "relatorio_trimestral.pdf",
+      "pessoais": 0,
+      "sensiveis": 0,
+      "potenciais": 0,
+      "pontuacao": 0,
+      "risco": "Nenhum",
+      "tipos": ""
+    }
+  ],
+  "achados": [
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A10",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Lucas C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A11",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro L.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A12",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Luciana S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A13",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Mateus B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Marcos R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A3",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Paulo A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A4",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rafael C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A5",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Isabela S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A6",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A7",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Raimunda C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A8",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Davi B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!A9",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Mateus F.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B10",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1965",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B11",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1995",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B12",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1962",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B13",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1961",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B2",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1978",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B3",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1970",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B4",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/2000",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B5",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1974",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B6",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1995",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B7",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1957",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B8",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/2003",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!B9",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1960",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C10",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Av. ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C11",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Travessa ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C12",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Av. ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C13",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Avenida ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C2",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Av. ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C3",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rua ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C4",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Travessa ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C5",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Avenida ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C6",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rua ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C7",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rua ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C8",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Av. ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!C9",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Avenida ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D10",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Helena T.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D11",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Antônio L.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D12",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Antônio C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D13",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Thiago O.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Juliana O.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D3",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Lucas M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D4",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Marcos C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D5",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Antônio S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D6",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Marcos N.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D7",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D8",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Aline S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!D9",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Larissa C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E10",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(11) *****-**60",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E11",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(11) *****-**80",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E12",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(98) *****-**54",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E13",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(89) *****-**30",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E2",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(88) *****-**13",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E3",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(85) *****-**27",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E4",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(21) *****-**56",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E5",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**97",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E6",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**70",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E7",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(21) *****-**57",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E8",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**19",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!E9",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(85) *****-**86",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F1",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Religião",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F10",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Espírita",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F11",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Espírita",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F12",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "religião",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F13",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "religião",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F2",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Espírita",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F3",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Evangélica",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F4",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Espírita",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F5",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Católica",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F6",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Espírita",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F7",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Espírita",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F8",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "religião",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!F9",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Espírita",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "alunos.xlsx",
+      "local": "Turma A!G1",
+      "tipo": "Origem racial ou étnica",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Cor/Raça",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "ata_reuniao_01.txt",
+      "local": "linha 4",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "ata_reuniao_01.txt",
+      "local": "linha 5",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "ata_reuniao_01.txt",
+      "local": "linha 6",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Paulo M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "ata_reuniao_02.txt",
+      "local": "linha 5",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "transtorno",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "ata_reuniao_02.txt",
+      "local": "linha 6",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diagnóstico",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "cabeçalho, coluna 3",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diagnostico",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 10, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "ansiedade",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 10, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 11, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "ansiedade",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 11, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Paulo C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 12, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diabetes",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 12, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 13, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "tuberculose",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 13, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José N.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 14, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "tuberculose",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 14, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "João B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 15, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "hipertensão",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 15, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Antônio P.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 16, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "tuberculose",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 16, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 2, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "hipertensão",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 2, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Lucas M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 3, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "ansiedade",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 3, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 4, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diabetes",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 4, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Aline A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 5, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "tuberculose",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 5, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Carlos B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 6, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "ansiedade",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 6, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Beatriz C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 7, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "hipertensão",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 7, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Marcos B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 8, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diabetes",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 8, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José N.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 9, coluna 'diagnostico'",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diabetes",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.csv",
+      "local": "linha 9, coluna 'paciente'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Francisca A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A10",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Camila M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A11",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Mateus S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro P.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A3",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Lucas S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A4",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Larissa A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A5",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A6",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Luciana O.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A7",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Davi F.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A8",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Carlos C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!A9",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "João P.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B10",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.916.172-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B11",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.397.125-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B2",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.495.625-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B3",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.037.672-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B4",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.733.500-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B5",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.702.264-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B6",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.826.991-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B7",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.572.458-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B8",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.896.583-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!B9",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.341.384-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D1",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Diagnóstico",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D10",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "ansiedade",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D11",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "hipertensão",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D2",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diabetes",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D3",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diabetes",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D4",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diabetes",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D5",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "ansiedade",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D6",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "ansiedade",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D7",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "diabetes",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D8",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "hipertensão",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!D9",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "ansiedade",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "atendimentos.xlsx",
+      "local": "Atendimentos!E1",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Medicamento",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 10, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64025-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 10, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.653.705-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 10, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "p***@gmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 10, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 10, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(98) *****-**85",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 11, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64091-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 11, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.376.092-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 11, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "c***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 11, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "CARLOS F.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 11, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**87",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 12, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64039-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 12, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.655.721-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 12, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "a***@outlook.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 12, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Antônio R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 12, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(89) *****-**58",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 13, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64042-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 13, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.706.360-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 13, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "l***@outlook.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 13, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Luciana M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 13, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(11) *****-**29",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 14, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64040-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 14, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.177.646-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 14, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "l***@uol.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 14, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Larissa F.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 14, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**97",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 15, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64058-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 15, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.852.611-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 15, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "L***@HOTMAIL.COM",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 15, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "LUCIANA O.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 15, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**79",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 16, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64083-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 16, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.437.323-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 16, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "d***@uol.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 16, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Davi B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 16, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(89) *****-**46",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 17, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64090-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 17, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.043.103-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 17, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "j***@gmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 17, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "João T.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 17, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(85) *****-**98",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 18, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64019-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 18, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.056.529-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 18, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "f***@yahoo.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 18, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Francisca C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 18, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(85) *****-**20",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 19, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64011-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 19, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.495.660-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 19, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "l***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 19, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "LARISSA M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 19, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(98) *****-**01",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 2, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64095-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 2, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.341.704-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 2, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "P***@UOL.COM.BR",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 2, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 2, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(21) *****-**01",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 20, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64005-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 20, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.958.225-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 20, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "F***@OUTLOOK.COM",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 20, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Francisca S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 20, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(21) *****-**99",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 21, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64092-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 21, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.969.372-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 21, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "h***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 21, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Helena O.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 21, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**85",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 22, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64057-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 22, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.649.366-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 22, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "d***@yahoo.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 22, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Davi F.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 22, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(11) *****-**57",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 23, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64008-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 23, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.178.800-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 23, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "T***@HOTMAIL.COM",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 23, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Thiago L.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 23, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**80",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 24, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64047-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 24, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.942.594-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 24, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "r***@uol.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 24, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "RAFAEL P.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 24, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(11) *****-**06",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 25, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64073-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 25, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.805.788-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 25, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "r***@yahoo.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 25, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "RAIMUNDA B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 25, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**76",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 26, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64005-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 26, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.500.324-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 26, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "a***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 26, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Antônio R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 26, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(88) *****-**99",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 27, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64033-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 27, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.923.597-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 27, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "j***@outlook.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 27, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "João N.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 27, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**46",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 28, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64077-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 28, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.200.080-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 28, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "m***@yahoo.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 28, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Marcos B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 28, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(85) *****-**56",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 29, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64095-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 29, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.806.671-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 29, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "g***@gmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 29, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Gabriel R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 29, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(11) *****-**01",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 3, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64000-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 3, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.760.207-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 3, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "h***@gmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 3, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Helena A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 3, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(88) *****-**05",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 30, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64080-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 30, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.318.024-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 30, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "r***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 30, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Raimunda M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 30, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(85) *****-**83",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 31, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64018-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 31, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.436.991-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 31, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "b***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 31, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Beatriz S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 31, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**47",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 4, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64055-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 4, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.166.915-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 4, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "l***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 4, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "LUCIANA S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 4, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(89) *****-**97",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 5, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64032-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 5, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.106.792-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 5, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "p***@outlook.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 5, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Paulo A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 5, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(89) *****-**02",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 6, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64071-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 6, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.213.878-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 6, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "c***@gmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 6, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Carlos T.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 6, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(98) *****-**02",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 7, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64057-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 7, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.836.450-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 7, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "a***@yahoo.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 7, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Aline S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 7, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(98) *****-**47",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 8, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64004-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 8, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.687.731-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 8, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "p***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 8, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "PAULO T.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 8, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**84",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 9, coluna 'cep'",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64030-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 9, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.489.364-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 9, coluna 'email'",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "b***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 9, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Beatriz M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "clientes.csv",
+      "local": "linha 9, coluna 'telefone'",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**06",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 2",
+      "tipo": "CNPJ",
+      "categoria": "Potencial",
+      "trecho_mascarado": "29.***.***/****-40",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 2",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.975.303-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Aline A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 3",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64071-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 3",
+      "tipo": "CNPJ",
+      "categoria": "Potencial",
+      "trecho_mascarado": "24.***.***/****-81",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 3",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rua ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 3",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Gabriel L.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 5",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.145.583-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 5",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.853.352-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "contrato_prestacao.docx",
+      "local": "parágrafo 5",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Lucas A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "email_exportado_01.txt",
+      "local": "linha 1",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "l***@yahoo.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "email_exportado_01.txt",
+      "local": "linha 1",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Larissa L.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "email_exportado_01.txt",
+      "local": "linha 2",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "c***@hotmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "email_exportado_01.txt",
+      "local": "linha 2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Camila S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "email_exportado_01.txt",
+      "local": "linha 5",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Atestado médico, depressão",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "email_exportado_01.txt",
+      "local": "linha 6",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(88) *****-**42",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "email_exportado_01.txt",
+      "local": "linha 8",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Larissa L.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "local": "linha 2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Francisca S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "local": "linha 3",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.396.245-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "local": "linha 4",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******8",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "local": "linha 5",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1985",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "local": "linha 6",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rua ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "local": "linha 7",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64043-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "local": "linha 8",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**78",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_01.txt",
+      "local": "linha 9",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "f***@uol.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "local": "linha 2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Marcos T.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "local": "linha 3",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.799.075-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "local": "linha 4",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********6",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "local": "linha 5",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/2003",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "local": "linha 6",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Avenida ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "local": "linha 7",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64081-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "local": "linha 8",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(88) *****-**76",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_02.txt",
+      "local": "linha 9",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "M***@HOTMAIL.COM",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 10",
+      "tipo": "Convicção religiosa",
+      "categoria": "Sensível",
+      "trecho_mascarado": "católico",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 11",
+      "tipo": "Origem racial ou étnica",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Origem racial, indígena",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Davi R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 3",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.288.072-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 4",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********1",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 5",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1975",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 6",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Travessa ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 7",
+      "tipo": "CEP",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "64099-***",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 8",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**01",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_cadastro_03.txt",
+      "local": "linha 9",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "d***@yahoo.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "local": "página 1, linha 2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Gabriel L.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "local": "página 1, linha 3",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.537.735-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "local": "página 1, linha 4",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********0",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "local": "página 1, linha 5",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/2001",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "local": "página 1, linha 6",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rua ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "local": "página 1, linha 7",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(88) *****-**82",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "local": "página 1, linha 8",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "g***@yahoo.com.br",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "ficha_funcionario.pdf",
+      "local": "página 1, linha 9",
+      "tipo": "Vida sexual / orientação sexual",
+      "categoria": "Sensível",
+      "trecho_mascarado": "orientação sexual, homossexual",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A10",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Aline M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A11",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "BEATRIZ C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A12",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "GABRIEL A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A13",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Gabriel T.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Davi L.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A3",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "ISABELA A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A4",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Beatriz F.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A5",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "JULIANA F.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A6",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Beatriz M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A7",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Aline C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!A8",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "João R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B10",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.691.228-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B11",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.523.542-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B12",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.093.330-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B13",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.936.467-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B2",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.994.817-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B3",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.499.167-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B4",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.674.284-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B5",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.000.497-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B6",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.570.183-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B7",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.995.812-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B8",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.848.383-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Fevereiro!B9",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.804.619-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A10",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "JOSÉ S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A11",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "PEDRO C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A12",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rafael C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A13",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Pedro S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José N.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A3",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Gabriel N.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A4",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rafael M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A5",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Raimunda F.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A6",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "João S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A7",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Gabriel S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A8",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Marcos M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!A9",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Isabela S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B10",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.984.179-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B11",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.799.363-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B12",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.696.052-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B13",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.957.086-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B2",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.672.432-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B3",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.153.569-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B4",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.139.221-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B5",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.715.120-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B6",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.332.976-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B7",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.635.695-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B8",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.821.563-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "folha_pagamento.xlsx",
+      "local": "Janeiro!B9",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.494.809-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 10, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.506.710-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 10, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1977",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 10, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Rafael S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 10, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******3",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 11, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.732.681-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 11, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1955",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 11, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Larissa N.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 11, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********6",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 12, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.683.673-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 12, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1990",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 12, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******7",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 13, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.534.646-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 13, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1970",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 13, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Helena C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 13, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******4",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 14, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.601.952-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 14, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1996",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 14, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Paulo O.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 14, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********0",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 15, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.682.991-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 15, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1999",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 15, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Aline C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 15, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******1",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 16, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.277.807-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 16, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/2002",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 16, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Camila S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 16, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********2",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 17, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.661.250-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 17, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1987",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 17, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Camila B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 17, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******4",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 18, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.557.883-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 18, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1973",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 18, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Francisca C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 18, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******7",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 19, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.535.429-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 19, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1991",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 19, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Beatriz R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 19, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********8",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 2, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.538.161-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 2, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1995",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 2, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "HELENA S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 2, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********1",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 20, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.889.692-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 20, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/2003",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 20, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Maria C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 20, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******0",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 21, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.484.426-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 21, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1991",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 21, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "José S.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 21, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******9",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 22, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.927.681-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 22, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1955",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 22, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Paulo A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 22, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******5",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 23, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.052.148-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 23, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1957",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 23, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "JOÃO B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 23, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******0",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 24, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.790.559-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 24, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1965",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 24, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "HELENA R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 24, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********1",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 25, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.409.959-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 25, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1982",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 25, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Thiago A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 25, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******4",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 26, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.446.290-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 26, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1990",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 26, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Fernanda C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 26, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******8",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 3, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.544.055-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 3, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1956",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 3, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "JOÃO B.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 3, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********0",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 4, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.260.834-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 4, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1986",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 4, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Larissa M.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 4, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********7",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 5, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.117.815-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 5, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1974",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 5, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Antônio C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 5, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********0",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 6, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.899.059-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 6, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1965",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 6, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Beatriz A.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 6, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********8",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 7, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.449.223-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 7, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1961",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 7, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Raimunda C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 7, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********3",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 8, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.114.367-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 8, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1973",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 8, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "FRANCISCA R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 8, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**********3",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 9, coluna 'cpf'",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.639.321-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 9, coluna 'nascimento'",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1980",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 9, coluna 'nome'",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "GABRIEL C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "funcionarios.csv",
+      "local": "linha 9, coluna 'rg'",
+      "tipo": "RG",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "******3",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "local": "nome do arquivo",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "laudo medico",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "local": "parágrafo 1",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Laudo Médico",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "local": "parágrafo 2",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.052.787-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "local": "parágrafo 2",
+      "tipo": "Data de nascimento",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "**/**/1959",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "local": "parágrafo 3",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Laudo médico, CID-10 I10, hipertensão",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "local": "parágrafo 4",
+      "tipo": "Dado biométrico ou genético",
+      "categoria": "Sensível",
+      "trecho_mascarado": "exame de DNA",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "local": "parágrafo 5",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "a***@outlook.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "laudo_medico.docx",
+      "local": "parágrafo 5",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(11) *****-**49",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "memorando_interno.docx",
+      "local": "parágrafo 6",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "transtorno",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "relato_ocorrencia_01.txt",
+      "local": "linha 1",
+      "tipo": "CPF",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "***.440.242-**",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "relato_ocorrencia_01.txt",
+      "local": "linha 1",
+      "tipo": "Endereço",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Av. ****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "relato_ocorrencia_01.txt",
+      "local": "linha 1",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Sr. C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "relato_ocorrencia_01.txt",
+      "local": "linha 1",
+      "tipo": "Placa de veículo",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "LCJ-****",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "relato_ocorrencia_01.txt",
+      "local": "linha 2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Fernanda R.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "relato_ocorrencia_01.txt",
+      "local": "linha 2",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(89) *****-**51",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "relato_ocorrencia_01.txt",
+      "local": "linha 4",
+      "tipo": "Saúde",
+      "categoria": "Sensível",
+      "trecho_mascarado": "Atestado médico, depressão",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "requerimento_sindical.docx",
+      "local": "parágrafo 2",
+      "tipo": "Nome de pessoa",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "Maria C.",
+      "detector": "ner-spacy"
+    },
+    {
+      "arquivo": "requerimento_sindical.docx",
+      "local": "parágrafo 3",
+      "tipo": "Filiação sindical",
+      "categoria": "Sensível",
+      "trecho_mascarado": "sindicalizado",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "requerimento_sindical.docx",
+      "local": "parágrafo 4",
+      "tipo": "Opinião política / filiação partidária",
+      "categoria": "Sensível",
+      "trecho_mascarado": "filiação partidária",
+      "detector": "contexto"
+    },
+    {
+      "arquivo": "requerimento_sindical.docx",
+      "local": "parágrafo 5",
+      "tipo": "E-mail",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "l***@gmail.com",
+      "detector": "regex"
+    },
+    {
+      "arquivo": "requerimento_sindical.docx",
+      "local": "parágrafo 5",
+      "tipo": "Telefone",
+      "categoria": "Pessoal",
+      "trecho_mascarado": "(86) *****-**39",
+      "detector": "regex"
+    }
+  ],
+  "ignorados": [
+    {
+      "arquivo": "ground_truth.json",
+      "motivo": "formato não suportado"
+    }
+  ]
+}

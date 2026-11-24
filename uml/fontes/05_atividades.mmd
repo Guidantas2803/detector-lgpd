@@ -1,0 +1,22 @@
+%%{init: {"theme":"neutral","themeVariables":{"fontSize":"15px"},"flowchart":{"curve":"basis"}}}%%
+flowchart TD
+  I((Início)) --> A[Receber pasta ou arquivo]
+  A --> B[Listar arquivos]
+  B --> C{Há arquivo<br/>a processar?}
+  C -- não --> M[Calcular prioridade de<br/>revisão por arquivo]
+  C -- sim --> P[Analisar partes do caminho<br/>e mascarar o nome exibido<br/>ou trocar por ARQ-nnn]
+  P --> D{Formato<br/>suportado?}
+  D -- não --> X1[Registrar como ignorado]
+  X1 --> C
+  D -- sim --> E[Extrair texto em segmentos<br/>arquivo, local, texto]
+  E --> F{Erro de<br/>leitura?}
+  F -- sim --> X1
+  F -- não --> G[Detectar identificadores<br/>regex + dígito verificador]
+  G --> H[Sinalizar indícios sensíveis<br/>termos de contexto]
+  H --> J{NER<br/>ativo?}
+  J -- sim --> K[Detectar nomes<br/>spaCy, em lote]
+  J -- não --> L
+  K --> L[Resolver sobreposições<br/>por prioridade]
+  L --> C
+  M --> N[Gerar relatórios<br/>XLSX, HTML, JSON<br/>somente dados mascarados]
+  N --> O((Fim))

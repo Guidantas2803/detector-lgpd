@@ -1,0 +1,30 @@
+digraph G {
+  graph [fontname="DejaVu Sans", pad=0.3, bgcolor="white"];
+  node  [fontname="DejaVu Sans", fontsize=11];
+  edge  [fontname="DejaVu Sans", fontsize=10, color="#444444"];
+  rankdir=LR; nodesep=0.45; ranksep=1.3;
+  analista [shape=box, style="rounded,filled", fillcolor="#F4F6F8", label=<<FONT POINT-SIZE="9">«ator»</FONT><BR/><B>Analista de<BR/>conformidade<BR/>(DPO / auditor)</B>>];
+  pesq [shape=box, style="rounded,filled", fillcolor="#F4F6F8", label=<<FONT POINT-SIZE="9">«ator»</FONT><BR/><B>Pesquisador<BR/>(autor do TCC)</B>>];
+  subgraph cluster_sys { label="Sistema dlgpd"; style=rounded; color="#555555"; fontname="DejaVu Sans";
+  uc1 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC01  Varrer pasta ou arquivo"];
+  uc2 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC02  Gerar relatórios\n(XLSX, HTML, JSON)"];
+  uc3 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC03  Consultar prioridade\nde revisão por arquivo"];
+  uc4 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC04  Avaliar o detector\ncontra um gabarito"];
+  uc5 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC05  Gerar documentos\nfictícios de teste"];
+  uc6 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC06  Detectar dados\npessoais"];
+  uc7 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC07  Sinalizar indícios de\ncategorias sensíveis"];
+  uc8 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC08  Mascarar valores\ne nomes de arquivo"];
+  uc9 [shape=ellipse, style=filled, fillcolor="#E8F1FB", label="UC09  Pseudonimizar\ncaminhos"];
+  }
+  analista -> uc1 [arrowhead=none];
+  analista -> uc2 [arrowhead=none];
+  analista -> uc3 [arrowhead=none];
+  pesq -> uc4 [arrowhead=none];
+  pesq -> uc5 [arrowhead=none];
+  uc1 -> uc6 [style=dashed, arrowhead=vee, label="«include»"];
+  uc1 -> uc7 [style=dashed, arrowhead=vee, label="«include»"];
+  uc2 -> uc8 [style=dashed, arrowhead=vee, label="«include»"];
+  uc4 -> uc1 [style=dashed, arrowhead=vee, label="«include»"];
+  uc3 -> uc2 [style=dashed, arrowhead=vee, label="«extend»"];
+  uc9 -> uc2 [style=dashed, arrowhead=vee, label="«extend»"];
+}

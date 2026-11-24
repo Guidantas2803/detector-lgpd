@@ -1,0 +1,25 @@
+digraph G {
+  graph [fontname="DejaVu Sans", pad=0.3, bgcolor="white"];
+  node  [fontname="DejaVu Sans", fontsize=11];
+  edge  [fontname="DejaVu Sans", fontsize=10, color="#444444"];
+  rankdir=TB; nodesep=0.55; ranksep=1.0; splines=polyline;
+  Scanner [shape=plain, label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" BGCOLOR="#F4F6F8"><TR><TD BGCOLOR="#D6E4F0"><B>Scanner</B></TD></TR><HR/><TR><TD ALIGN="LEFT">- detectors : list&lt;Detector&gt;<BR ALIGN="LEFT"/>- pseudonymize_paths : bool<BR ALIGN="LEFT"/></TD></TR><HR/><TR><TD ALIGN="LEFT">+ scan(root) : ScanResult<BR ALIGN="LEFT"/>- _detect(list&lt;Segment&gt;) : list&lt;Finding&gt;<BR ALIGN="LEFT"/>- _path_findings(rel) : list&lt;Finding&gt;<BR ALIGN="LEFT"/>- _mask_path(rel, achados) : str<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+  Detector [shape=plain, label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" BGCOLOR="#FFF6DD"><TR><TD BGCOLOR="#F5E3A8"><FONT POINT-SIZE="9">«classe abstrata»</FONT><BR/><B>Detector</B></TD></TR><HR/><TR><TD ALIGN="LEFT">+ name : str<BR ALIGN="LEFT"/></TD></TR><HR/><TR><TD ALIGN="LEFT">+ detect(Segment) : list&lt;Finding&gt;  {abstrato}<BR ALIGN="LEFT"/>+ detect_many(list&lt;Segment&gt;) : list&lt;Finding&gt;<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+  RegexDetector [shape=plain, label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" BGCOLOR="#F4F6F8"><TR><TD BGCOLOR="#D6E4F0"><B>RegexDetector</B></TD></TR><HR/><TR><TD ALIGN="LEFT">+ name = "regex"<BR ALIGN="LEFT"/></TD></TR><HR/><TR><TD ALIGN="LEFT">+ detect(Segment) : list&lt;Finding&gt;<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+  ContextDetector [shape=plain, label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" BGCOLOR="#F4F6F8"><TR><TD BGCOLOR="#D6E4F0"><B>ContextDetector</B></TD></TR><HR/><TR><TD ALIGN="LEFT">+ name = "contexto"<BR ALIGN="LEFT"/></TD></TR><HR/><TR><TD ALIGN="LEFT">+ detect(Segment) : list&lt;Finding&gt;<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+  NerDetector [shape=plain, label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" BGCOLOR="#F4F6F8"><TR><TD BGCOLOR="#D6E4F0"><B>NerDetector</B></TD></TR><HR/><TR><TD ALIGN="LEFT">+ name = "ner-spacy"<BR ALIGN="LEFT"/>- min_words : int<BR ALIGN="LEFT"/>- include_locations : bool<BR ALIGN="LEFT"/></TD></TR><HR/><TR><TD ALIGN="LEFT">+ detect(Segment) : list&lt;Finding&gt;<BR ALIGN="LEFT"/>+ detect_many(list&lt;Segment&gt;) : list&lt;Finding&gt;  {em lote}<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+  ScanResult [shape=plain, label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" BGCOLOR="#F4F6F8"><TR><TD BGCOLOR="#D6E4F0"><B>ScanResult</B></TD></TR><HR/><TR><TD ALIGN="LEFT">+ root : str<BR ALIGN="LEFT"/>+ files_scanned : list<BR ALIGN="LEFT"/>+ findings : list<BR ALIGN="LEFT"/>+ skipped : list<BR ALIGN="LEFT"/>+ ner_enabled : bool<BR ALIGN="LEFT"/>+ display : dict<BR ALIGN="LEFT"/></TD></TR><HR/><TR><TD ALIGN="LEFT">+ shown(rel) : str<BR ALIGN="LEFT"/></TD></TR></TABLE>>];
+  Finding [shape=plain, label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" BGCOLOR="#F4F6F8"><TR><TD BGCOLOR="#D6E4F0"><B>Finding</B></TD></TR><HR/><TR><TD ALIGN="LEFT">+ file : str<BR ALIGN="LEFT"/>+ location : str<BR ALIGN="LEFT"/>+ kind : str<BR ALIGN="LEFT"/>+ category : str<BR ALIGN="LEFT"/>+ value : str<BR ALIGN="LEFT"/>+ masked : str<BR ALIGN="LEFT"/>+ detector : str<BR ALIGN="LEFT"/>+ priority : int<BR ALIGN="LEFT"/></TD></TR><HR/><TR><TD ALIGN="LEFT"> </TD></TR></TABLE>>];
+  Segment [shape=plain, label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" BGCOLOR="#F4F6F8"><TR><TD BGCOLOR="#D6E4F0"><B>Segment</B></TD></TR><HR/><TR><TD ALIGN="LEFT">+ file : str<BR ALIGN="LEFT"/>+ location : str<BR ALIGN="LEFT"/>+ text : str<BR ALIGN="LEFT"/></TD></TR><HR/><TR><TD ALIGN="LEFT"> </TD></TR></TABLE>>];
+  {rank=same; Scanner; Detector;}
+  {rank=same; ScanResult; RegexDetector; ContextDetector; NerDetector; Segment;}
+  ScanResult -> RegexDetector -> ContextDetector -> NerDetector -> Segment [style=invis];
+  Scanner -> Detector [dir=both, arrowtail=odiamond, arrowhead=vee, taillabel="1", headlabel="1..*  "];
+  Detector -> RegexDetector [dir=back, arrowtail=empty];
+  Detector -> ContextDetector [dir=back, arrowtail=empty];
+  Detector -> NerDetector [dir=back, arrowtail=empty];
+  Scanner -> ScanResult [style=dashed, arrowhead=vee, label=" cria"];
+  ScanResult -> Finding [dir=both, arrowtail=odiamond, arrowhead=none, taillabel="1", headlabel="0..*"];
+  Detector -> Segment [style=dashed, arrowhead=vee, label=" lê"];
+  Detector -> Finding [style=dashed, arrowhead=vee, label=" produz", constraint=false];
+}

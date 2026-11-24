@@ -1,0 +1,164 @@
+[
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "clientes.csv",
+    "valor": "ana ribeiro"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "clientes.csv",
+    "valor": "fernanda dos carvalho"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "clientes.csv",
+    "valor": "fernanda dos nogueira"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "clientes.csv",
+    "valor": "camila das ribeiro"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "clientes.csv",
+    "valor": "isabela dos costa"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "clientes.csv",
+    "valor": "lucas das carvalho"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "contrato_prestacao.docx",
+    "valor": "hospital getulio vargas"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "contrato_prestacao.docx",
+    "valor": "hospital getulio vargas"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "estoque.csv",
+    "valor": "hospital getulio vargas"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "estoque.csv",
+    "valor": "hospital getulio vargas"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "estoque.csv",
+    "valor": "hospital getulio vargas"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "estoque.csv",
+    "valor": "hospital getulio vargas"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "estoque.xlsx",
+    "valor": "hospital getulio vargas"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "estoque.xlsx",
+    "valor": "hospital getulio vargas"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "folha_pagamento.xlsx",
+    "valor": "maria das costa"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "folha_pagamento.xlsx",
+    "valor": "pedro batista"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "folha_pagamento.xlsx",
+    "valor": "ana da fonseca"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "folha_pagamento.xlsx",
+    "valor": "pedro de oliveira"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": "isabela das oliveira teixeira"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": "antonio das fonseca"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": "davi da ribeiro"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": "joao pereira"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": "juliana das nogueira"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": "francisca das barbosa"
+  },
+  {
+    "tipo": "SAUDE",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "ata_reuniao_02.txt",
+    "valor": ""
+  },
+  {
+    "tipo": "SAUDE",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "memorando_interno.docx",
+    "valor": ""
+  },
+  {
+    "tipo": "SINDICATO",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": ""
+  }
+]

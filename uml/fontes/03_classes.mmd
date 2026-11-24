@@ -1,0 +1,60 @@
+%%{init: {"theme":"neutral","themeVariables":{"fontSize":"16px"}}}%%
+classDiagram
+  direction TB
+  class Scanner {
+    -regex : RegexDetector
+    -context : ContextDetector
+    -ner : NerDetector
+    +scan(root) ScanResult
+  }
+  class Detector {
+    <<protocolo implícito>>
+    +name : str
+    +detect(Segment) list~Finding~
+  }
+  class RegexDetector {
+    +name = "regex"
+    +detect(Segment) list~Finding~
+  }
+  class ContextDetector {
+    +name = "contexto"
+    +detect(Segment) list~Finding~
+  }
+  class NerDetector {
+    +name = "ner-spacy"
+    -min_words : int
+    -include_locations : bool
+    +detect_many(list~Segment~) list~Finding~
+  }
+  class ScanResult {
+    +root : str
+    +files_scanned : list
+    +findings : list
+    +skipped : list
+    +ner_enabled : bool
+  }
+  class Finding {
+    +file : str
+    +location : str
+    +kind : str
+    +category : str
+    +value : str
+    +masked : str
+    +detector : str
+    +priority : int
+  }
+  class Segment {
+    +file : str
+    +location : str
+    +text : str
+  }
+  Scanner *-- RegexDetector
+  Scanner *-- ContextDetector
+  Scanner o-- NerDetector : 0..1
+  Detector <|.. RegexDetector
+  Detector <|.. ContextDetector
+  Detector <|.. NerDetector
+  Scanner ..> ScanResult : cria
+  ScanResult "1" o-- "0..*" Finding
+  Detector ..> Segment : lê
+  Detector ..> Finding : produz

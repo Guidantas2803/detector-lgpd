@@ -1,0 +1,21 @@
+tipo,rotulo,nivel,tp,fp,fn,precisao,recall,f1
+CPF,CPF,entidade,98,0,0,1.0,1.0,1.0
+CNPJ,CNPJ,entidade,2,0,0,1.0,1.0,1.0
+EMAIL,E-mail,entidade,38,0,0,1.0,1.0,1.0
+TELEFONE,Telefone,entidade,50,0,0,1.0,1.0,1.0
+CEP,CEP,entidade,34,0,0,1.0,1.0,1.0
+RG,RG,entidade,29,0,0,1.0,1.0,1.0
+PLACA,Placa de veículo,entidade,1,0,0,1.0,1.0,1.0
+DATA_NASCIMENTO,Data de nascimento,entidade,42,0,0,1.0,1.0,1.0
+ENDERECO,Endereço,entidade,18,0,0,1.0,1.0,1.0
+PESSOA,Nome de pessoa,entidade,130,8,16,0.9420289855072463,0.8904109589041096,0.9154929577464788
+SAUDE,Saúde,arquivo,5,2,0,0.7142857142857143,1.0,0.8333333333333333
+RELIGIAO,Convicção religiosa,arquivo,2,0,0,1.0,1.0,1.0
+SINDICATO,Filiação sindical,arquivo,1,0,1,1.0,0.5,0.6666666666666666
+POLITICA,Opinião política / filiação partidária,arquivo,1,0,0,1.0,1.0,1.0
+ETNIA,Origem racial ou étnica,arquivo,2,0,0,1.0,1.0,1.0
+SEXUAL,Vida sexual / orientação sexual,arquivo,1,0,0,1.0,1.0,1.0
+BIOMETRICO,Dado biométrico ou genético,arquivo,1,0,0,1.0,1.0,1.0
+MICRO_ENTIDADE,"MICRO (identificadores, nomes, endereços)",entidade,442,8,16,0.9822222222222222,0.9650655021834061,0.973568281938326
+MICRO_ARQUIVO,MICRO (dados sensíveis),arquivo,13,2,1,0.8666666666666667,0.9285714285714286,0.896551724137931
+MACRO,MACRO (média simples dos tipos),-,,,,0.9797832176348801,0.9641418211120064,0.9656172328086164

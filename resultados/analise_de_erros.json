@@ -1,0 +1,26 @@
+[
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": "juliana das nogueira"
+  },
+  {
+    "tipo": "SAUDE",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "ata_reuniao_02.txt",
+    "valor": ""
+  },
+  {
+    "tipo": "SAUDE",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "memorando_interno.docx",
+    "valor": ""
+  },
+  {
+    "tipo": "SINDICATO",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": ""
+  }
+]

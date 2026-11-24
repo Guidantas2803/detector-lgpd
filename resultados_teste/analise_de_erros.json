@@ -1,0 +1,44 @@
+[
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "contrato_prestacao.docx",
+    "valor": "aline das souza"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "folha_pagamento.xlsx",
+    "valor": "aline das santos"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": "helena das nogueira"
+  },
+  {
+    "tipo": "PESSOA",
+    "erro": "FN (não detectado)",
+    "arquivo": "laudo_medico.docx",
+    "valor": "aline da mendes"
+  },
+  {
+    "tipo": "SAUDE",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "ata_reuniao_02.txt",
+    "valor": ""
+  },
+  {
+    "tipo": "SAUDE",
+    "erro": "FP (detectado indevidamente)",
+    "arquivo": "memorando_interno.docx",
+    "valor": ""
+  },
+  {
+    "tipo": "SINDICATO",
+    "erro": "FN (não detectado)",
+    "arquivo": "funcionarios.csv",
+    "valor": ""
+  }
+]

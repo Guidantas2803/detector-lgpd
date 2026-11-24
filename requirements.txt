@@ -1,0 +1,9 @@
+spacy>=3.7
+openpyxl>=3.1
+python-docx>=1.1
+pypdf>=4.0
+reportlab>=4.0      # apenas para gerar PDFs de teste
+pytest>=8.0
+# Modelo de NER em português (instalar separadamente):
+# pip install https://github.com/explosion/spacy-models/releases/download/pt_core_news_lg-3.8.0/pt_core_news_lg-3.8.0-py3-none-any.whl
+presidio-analyzer>=2.2   # apenas para tools/baseline_presidio.py (comparação)

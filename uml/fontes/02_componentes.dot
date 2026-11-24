@@ -1,0 +1,47 @@
+digraph G {
+  graph [fontname="DejaVu Sans", pad=0.3, bgcolor="white"];
+  node  [fontname="DejaVu Sans", fontsize=11];
+  edge  [fontname="DejaVu Sans", fontsize=10, color="#444444"];
+  rankdir=TB; nodesep=0.5; ranksep=0.8; compound=true;
+  cli [shape=component, style=filled, fillcolor="#DCEBF7", label="CLI\n(cli.py)"];
+  scanner [shape=component, style=filled, fillcolor="#DCEBF7", label="Scanner\n(scanner.py)"];
+  report [shape=component, style=filled, fillcolor="#DCEBF7", label="Relatório\n(report.py)"];
+  evaluation [shape=component, style=filled, fillcolor="#DCEBF7", label="Avaliação\n(evaluation.py)"];
+  extractors [shape=component, style=filled, fillcolor="#DCEBF7", label="Extratores de arquivo\n(extractors.py)"];
+  subgraph cluster_det { label="Detectores (detectors/)"; style="rounded,dashed"; color="#888888"; fontname="DejaVu Sans";
+  base [shape=component, style=filled, fillcolor="#FFF6DD", label="Detector\n(base.py, interface)"];
+  regex [shape=component, style=filled, fillcolor="#E3F1DF", label="RegexDetector"];
+  context [shape=component, style=filled, fillcolor="#E3F1DF", label="ContextDetector"];
+  ner [shape=component, style=filled, fillcolor="#E3F1DF", label="NerDetector"];
+  }
+  validators [shape=component, style=filled, fillcolor="#FFF6DD", label="Validadores\n(validators.py)"];
+  masking [shape=component, style=filled, fillcolor="#FFF6DD", label="Mascaramento\n(masking.py)"];
+  models [shape=component, style=filled, fillcolor="#FFF6DD", label="Modelos\n(models.py)"];
+  fs [shape=folder, style=filled, fillcolor="#EFEFEF", label="Arquivos\n(txt, csv, xlsx, docx, pdf)"];
+  spacy [shape=folder, style=filled, fillcolor="#EFEFEF", label="spaCy\npt_core_news_lg"];
+  libs [shape=folder, style=filled, fillcolor="#EFEFEF", label="openpyxl · python-docx\n· pypdf"];
+  out [shape=folder, style=filled, fillcolor="#EFEFEF", label="Relatórios\n(xlsx, html, json)"];
+  mapa [shape=folder, style=filled, fillcolor="#EFEFEF", label="mapa_de_caminhos_\nCONFIDENCIAL.json"];
+  gt [shape=folder, style=filled, fillcolor="#EFEFEF", label="Gabarito\n(ground_truth.json)"];
+  cli -> scanner [arrowhead=vee, style=dashed];
+  cli -> report [arrowhead=vee, style=dashed];
+  cli -> evaluation [arrowhead=vee, style=dashed];
+  scanner -> extractors [arrowhead=vee, style=dashed];
+  scanner -> base [arrowhead=vee, style=dashed, label=" lista de"];
+  regex -> base [arrowhead=vee, style=dashed, label=" herda"];
+  context -> base [arrowhead=vee, style=dashed, label=" herda"];
+  ner -> base [arrowhead=vee, style=dashed, label=" herda"];
+  scanner -> masking [arrowhead=vee, style=dashed, label=" nomes de arquivo"];
+  regex -> validators [arrowhead=vee, style=dashed];
+  regex -> masking [arrowhead=vee, style=dashed];
+  ner -> masking [arrowhead=vee, style=dashed];
+  ner -> spacy [arrowhead=vee, style=dashed];
+  extractors -> fs [arrowhead=vee, style=dashed, label=" lê"];
+  extractors -> libs [arrowhead=vee, style=dashed, label=" usa"];
+  report -> out [arrowhead=vee, style=dashed, label=" grava"];
+  report -> mapa [arrowhead=vee, style=dashed, label=" grava (opcional)"];
+  evaluation -> gt [arrowhead=vee, style=dashed, label=" lê"];
+  scanner -> models [arrowhead=vee, style=dashed];
+  {rank=same; report; evaluation; scanner;}
+  {rank=same; fs; libs; spacy; out; mapa; gt;}
+}

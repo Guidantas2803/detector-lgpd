@@ -1,0 +1,2362 @@
+[
+ {
+  "file": "ata_reuniao_01.txt",
+  "kind": "PESSOA",
+  "value": "Carlos Lima"
+ },
+ {
+  "file": "ata_reuniao_01.txt",
+  "kind": "PESSOA",
+  "value": "Davi das Mendes Moura"
+ },
+ {
+  "file": "ata_reuniao_01.txt",
+  "kind": "PESSOA",
+  "value": "José Oliveira Rocha"
+ },
+ {
+  "file": "ficha_cadastro_01.txt",
+  "kind": "PESSOA",
+  "value": "Lucas Almeida"
+ },
+ {
+  "file": "ficha_cadastro_01.txt",
+  "kind": "CPF",
+  "value": "963.834.657-40"
+ },
+ {
+  "file": "ficha_cadastro_01.txt",
+  "kind": "RG",
+  "value": "8.223.353-5"
+ },
+ {
+  "file": "ficha_cadastro_01.txt",
+  "kind": "DATA_NASCIMENTO",
+  "value": "01/10/1990"
+ },
+ {
+  "file": "ficha_cadastro_01.txt",
+  "kind": "ENDERECO",
+  "value": "Travessa Frei Serafim, nº 943"
+ },
+ {
+  "file": "ficha_cadastro_01.txt",
+  "kind": "CEP",
+  "value": "64090646"
+ },
+ {
+  "file": "ficha_cadastro_01.txt",
+  "kind": "TELEFONE",
+  "value": "+55 86 91514-6413"
+ },
+ {
+  "file": "ficha_cadastro_01.txt",
+  "kind": "EMAIL",
+  "value": "lucas.almeida@yahoo.com.br"
+ },
+ {
+  "file": "ficha_cadastro_02.txt",
+  "kind": "PESSOA",
+  "value": "Thiago dos Souza Mendes"
+ },
+ {
+  "file": "ficha_cadastro_02.txt",
+  "kind": "CPF",
+  "value": "013.267.736-90"
+ },
+ {
+  "file": "ficha_cadastro_02.txt",
+  "kind": "RG",
+  "value": "3488102"
+ },
+ {
+  "file": "ficha_cadastro_02.txt",
+  "kind": "DATA_NASCIMENTO",
+  "value": "09/08/1973"
+ },
+ {
+  "file": "ficha_cadastro_02.txt",
+  "kind": "ENDERECO",
+  "value": "Alameda Miguel Rosa, 1733"
+ },
+ {
+  "file": "ficha_cadastro_02.txt",
+  "kind": "CEP",
+  "value": "64071-677"
+ },
+ {
+  "file": "ficha_cadastro_02.txt",
+  "kind": "TELEFONE",
+  "value": "(86) 94111-5861"
+ },
+ {
+  "file": "ficha_cadastro_02.txt",
+  "kind": "EMAIL",
+  "value": "THIAGO.SOUZA.MENDES@OUTLOOK.COM"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "PESSOA",
+  "value": "Davi das Ribeiro"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "CPF",
+  "value": "107.991.183-97"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "RG",
+  "value": "3457170"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "DATA_NASCIMENTO",
+  "value": "12/05/1965"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "ENDERECO",
+  "value": "Travessa Miguel Rosa, 1795"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "CEP",
+  "value": "64083541"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "TELEFONE",
+  "value": "(21) 95905-2697"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "EMAIL",
+  "value": "davi.ribeiro@uol.com.br"
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "RELIGIAO",
+  "value": ""
+ },
+ {
+  "file": "ficha_cadastro_03.txt",
+  "kind": "ETNIA",
+  "value": ""
+ },
+ {
+  "file": "email_exportado_01.txt",
+  "kind": "PESSOA",
+  "value": "José da Nogueira"
+ },
+ {
+  "file": "email_exportado_01.txt",
+  "kind": "PESSOA",
+  "value": "Thiago Nogueira Carvalho"
+ },
+ {
+  "file": "email_exportado_01.txt",
+  "kind": "EMAIL",
+  "value": "jose.nogueira@gmail.com"
+ },
+ {
+  "file": "email_exportado_01.txt",
+  "kind": "EMAIL",
+  "value": "thiago.nogueira.carvalho@uol.com.br"
+ },
+ {
+  "file": "email_exportado_01.txt",
+  "kind": "SAUDE",
+  "value": ""
+ },
+ {
+  "file": "email_exportado_01.txt",
+  "kind": "TELEFONE",
+  "value": "+55 85 93662-3900"
+ },
+ {
+  "file": "email_exportado_01.txt",
+  "kind": "PESSOA",
+  "value": "José da Nogueira"
+ },
+ {
+  "file": "relato_ocorrencia_01.txt",
+  "kind": "PESSOA",
+  "value": "Thiago das Carvalho Souza"
+ },
+ {
+  "file": "relato_ocorrencia_01.txt",
+  "kind": "PESSOA",
+  "value": "Fernanda Teixeira Cardoso"
+ },
+ {
+  "file": "relato_ocorrencia_01.txt",
+  "kind": "CPF",
+  "value": "303.654.145-49"
+ },
+ {
+  "file": "relato_ocorrencia_01.txt",
+  "kind": "ENDERECO",
+  "value": "Alameda Elias Ximenes, 1638"
+ },
+ {
+  "file": "relato_ocorrencia_01.txt",
+  "kind": "PLACA",
+  "value": "DJF4B23"
+ },
+ {
+  "file": "relato_ocorrencia_01.txt",
+  "kind": "TELEFONE",
+  "value": "(88) 96663-6139"
+ },
+ {
+  "file": "relato_ocorrencia_01.txt",
+  "kind": "SAUDE",
+  "value": ""
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Ana das Santos"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "330.923.271-95"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "85 98619-5198"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "ANA.SANTOS@OUTLOOK.COM"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64003-951"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Fernanda de Costa Carvalho"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "149.190.586-75"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "86992896590"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "fernanda.costa.carvalho@gmail.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64046-650"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Mateus dos Almeida"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "877.694.531-60"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "11949958613"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "mateus.almeida@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64027-363"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Larissa da Mendes Costa"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "136.783.777-42"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 86 95820-4630"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "larissa.mendes.costa@uol.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64070-543"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Larissa de Almeida"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "313.518.233-96"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 89 99595-5636"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "larissa.almeida@hotmail.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64038-014"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "José dos Ribeiro"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "271.094.777-38"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "86951368827"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "JOSE.RIBEIRO@YAHOO.COM.BR"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64080-702"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Pedro Carvalho Moura"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "999.386.774-87"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "88 96003-1986"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "pedro.carvalho.moura@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64020-245"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Paulo de Fonseca"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "034.471.349-09"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 85 97965-2880"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "PAULO.FONSECA@HOTMAIL.COM"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64021-811"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Camila Cardoso"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "648.877.190-60"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 98 95102-1423"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "CAMILA.CARDOSO@UOL.COM.BR"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64096-179"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Raimunda Batista"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "717.565.512-60"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 11 95722-7561"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "raimunda.batista@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64098-413"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Lucas de Moura Rocha"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "597.703.482-28"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "11 98941-2989"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "lucas.moura.rocha@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64070-417"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "João das Lima"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "48467737875"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 85 99327-3236"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "joao.lima@uol.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64000-289"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Davi de Lima"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "755.886.753-39"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "85972744826"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "davi.lima@yahoo.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64084-811"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Francisca dos Batista"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "17187026200"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "(89) 2972-6383"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "francisca.batista@yahoo.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64080-735"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Ana Ribeiro"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "161.172.400-74"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "86 95806-6873"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "ana.ribeiro@uol.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64087-811"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Fernanda dos Carvalho"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "923.747.407-57"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "21935882210"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "fernanda.carvalho@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64038-203"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Fernanda dos Nogueira"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "406.409.097-79"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "(89) 3751-4115"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "fernanda.nogueira@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64092-785"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Helena das Santos"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "709.521.456-50"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 86 99837-6994"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "helena.santos@yahoo.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64037-764"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Ana Carvalho"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "685.160.481-79"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "89972427086"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "ana.carvalho@gmail.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64071-335"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Camila das Ribeiro"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "120.047.113-02"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "86973678432"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "camila.ribeiro@uol.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64019-906"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Gabriel de Almeida Nogueira"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "37735158556"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "(89) 5193-4475"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "GABRIEL.ALMEIDA.NOGUEIRA@GMAIL.COM"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64042-249"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Isabela dos Costa"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "352.904.228-54"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "86 92801-1422"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "isabela.costa@uol.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64022-271"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Mateus Teixeira"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "589.178.390-88"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "21959418504"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "mateus.teixeira@yahoo.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64062-729"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Francisca Lima Batista"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "856.984.789-02"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 86 94522-8046"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "francisca.lima.batista@yahoo.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64093-097"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Marcos Teixeira Oliveira"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "161.528.098-78"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 86 97730-6793"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "marcos.teixeira.oliveira@uol.com.br"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64013-591"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Carlos Nogueira"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "514.936.899-75"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 21 91430-5381"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "carlos.nogueira@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64023-890"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Francisca das Silva Rocha"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "366.752.545-10"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "(86) 91861-3549"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "francisca.silva.rocha@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64054-497"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Isabela dos Souza"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "149.784.036-85"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 86 91125-4349"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "isabela.souza@outlook.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64000-509"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "Lucas das Carvalho"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "516.060.715-30"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 88 97843-5743"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "lucas.carvalho@hotmail.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64079-471"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "PESSOA",
+  "value": "João Moura"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CPF",
+  "value": "816.453.521-45"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "TELEFONE",
+  "value": "+55 86 99693-9355"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "EMAIL",
+  "value": "joao.moura@hotmail.com"
+ },
+ {
+  "file": "clientes.csv",
+  "kind": "CEP",
+  "value": "64018-262"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Isabela das Oliveira Teixeira"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "799.799.552-87"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "8.552.746-4"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "19/01/1977"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "José Nogueira"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "119.986.798-53"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "1560929"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "07/06/1993"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Camila Barbosa"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "182.037.788-10"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "6.481.389-5"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "22/10/1958"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Lucas das Araújo Fonseca"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "251.925.462-90"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "2.417.672-5"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "27/03/1997"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Maria da Ribeiro Costa"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "573.322.141-05"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "9955856"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "02/11/1976"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Antônio das Fonseca"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "270.653.794-93"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "8.339.646-7"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "27/04/1978"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Isabela de Rocha"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "239.240.758-40"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "9.971.227-2"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "09/08/1987"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Carlos de Nogueira"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "606.853.615-78"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "6201959"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "11/03/1963"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Rafael das Lima"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "779.010.432-29"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "9533213"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "08/05/1962"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Thiago dos Cardoso Teixeira"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "98089324606"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "6.346.684-1"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "17/06/1959"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "José das Araújo"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "40515319538"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "6659446"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "06/11/1984"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Ana das Cardoso Costa"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "030.548.687-02"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "4392465"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "02/11/1976"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Paulo de Cardoso"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "652.775.841-37"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "2540716"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "06/09/1973"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Davi da Ribeiro"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "627.570.596-53"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "1176787"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "12/09/2002"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Gabriel das Cardoso Oliveira"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "355.690.927-81"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "6.554.881-2"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "17/06/1980"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "João Pereira"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "681.447.394-18"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "8.304.225-1"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "15/03/2000"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Juliana das Nogueira"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "88442258329"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "4.911.242-7"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "01/06/1990"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Lucas Fonseca"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "14678669116"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "6.757.175-8"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "12/03/1990"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "José Rocha Pereira"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "253.584.143-63"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "9381228"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "20/09/1960"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Gabriel das Fonseca"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "900.109.439-27"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "1609742"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "21/05/1985"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Ana das Santos Moura"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "773.592.555-70"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "3878479"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "04/06/1970"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Carlos Souza Araújo"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "963.259.532-74"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "9578610"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "16/01/1960"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Luciana dos Nogueira Ribeiro"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "797.480.162-00"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "6.882.512-6"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "02/10/1990"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Ana de Rocha"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "849.912.165-91"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "6671474"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "07/10/1987"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "PESSOA",
+  "value": "Francisca das Barbosa"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "CPF",
+  "value": "872.982.595-47"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "RG",
+  "value": "5707444"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "DATA_NASCIMENTO",
+  "value": "17/09/1986"
+ },
+ {
+  "file": "funcionarios.csv",
+  "kind": "SINDICATO",
+  "value": ""
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Maria da Barbosa"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Gabriel de Almeida"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Mateus Batista"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Francisca das Carvalho Souza"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Paulo Moura"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Mateus das Santos"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Davi de Rocha"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Lucas da Almeida"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Carlos da Ribeiro"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Rafael da Mendes"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "João dos Mendes"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "José da Oliveira"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Luciana Mendes Mendes"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "Gabriel das Batista Santos"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "PESSOA",
+  "value": "José Moura"
+ },
+ {
+  "file": "atendimentos.csv",
+  "kind": "SAUDE",
+  "value": ""
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Rafael Rocha"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "072.867.908-62"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Maria das Costa"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "065.180.170-23"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Helena de Nogueira"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "676.618.251-20"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Isabela Ribeiro"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "868.633.752-06"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Isabela Carvalho Souza"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "907.903.067-86"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Pedro Batista"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "953.428.364-92"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "José da Araújo"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "566.246.287-90"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "José dos Moura"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "882.634.351-96"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Fernanda das Fonseca"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "139.837.354-01"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Isabela de Carvalho"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "363.854.678-05"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Camila Teixeira"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "53556093251"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Fernanda dos Carvalho"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "547.772.522-21"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Beatriz Oliveira"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "006.231.203-05"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Gabriel de Teixeira Mendes"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "860.084.840-70"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Carlos Fonseca"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "546.156.793-27"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Helena Oliveira"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "687.002.176-70"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "José Costa"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "974.014.890-58"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Larissa de Oliveira Batista"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "396.856.218-61"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Ana da Fonseca"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "965.047.735-72"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Fernanda Fonseca Carvalho"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "11426265557"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "João Oliveira Cardoso"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "88861015891"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Isabela Mendes"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "398.262.244-13"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Pedro de Oliveira"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "37993712491"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "PESSOA",
+  "value": "Juliana de Barbosa"
+ },
+ {
+  "file": "folha_pagamento.xlsx",
+  "kind": "CPF",
+  "value": "924.593.752-63"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Helena de Batista"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "11/07/1972"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Av. Sete de Setembro, 1610"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Luciana dos Mendes Mendes"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "(86) 98563-4434"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Rafael Ribeiro Lima"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "23/07/1979"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Avenida Desembargador Freitas, 303"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Fernanda dos Rocha"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "(88) 4818-9796"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Isabela Nogueira Fonseca"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "02/10/1996"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Alameda Simplício Mendes, 2775"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Juliana de Souza Almeida"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "85993669499"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Aline das Rocha Silva"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "16/02/1973"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Rua Sete de Setembro, 1704"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Mateus Nogueira"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "(11) 94389-9537"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Larissa de Barbosa Santos"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "26/12/1962"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Av. Rui Barbosa, nº 93"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Thiago Carvalho"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "21936236422"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Helena das Moura"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "24/10/1967"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Travessa Simplício Mendes, 1842"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Larissa Costa Oliveira"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "86997964063"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Davi de Rocha"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "11/10/1979"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Avenida Desembargador Freitas, nº 2504"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Marcos de Fonseca Ribeiro"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "(86) 93194-6131"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Larissa Rocha"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "20/03/1991"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Avenida Coelho Rodrigues, 1572"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Lucas das Pereira"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "(11) 3422-8389"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Maria de Lima Araújo"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "18/09/1996"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Avenida Rui Barbosa, 2028"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Larissa de Teixeira Batista"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "(86) 2381-4683"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Isabela de Batista"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "25/08/1990"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Rua Desembargador Freitas, nº 2093"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Isabela dos Nogueira"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "86 98231-9951"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Camila da Nogueira"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "03/08/1962"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Rua Pires de Castro, 971"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Larissa da Fonseca"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "(86) 3924-1972"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Raimunda dos Mendes Ribeiro"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "10/10/1972"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ENDERECO",
+  "value": "Alameda Sete de Setembro, nº 2108"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "PESSOA",
+  "value": "Isabela de Santos"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "TELEFONE",
+  "value": "86 93174-5090"
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "RELIGIAO",
+  "value": ""
+ },
+ {
+  "file": "alunos.xlsx",
+  "kind": "ETNIA",
+  "value": ""
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Francisca dos Almeida"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "671.168.457-55"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Maria das Oliveira"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "751.863.637-90"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Lucas dos Lima"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "750.017.012-28"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Luciana das Lima"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "42415415260"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Larissa Moura"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "103.712.938-55"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Larissa da Souza"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "627.136.111-05"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Fernanda Lima Batista"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "092.753.269-75"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "João Souza"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "656.523.413-27"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Maria das Ribeiro Fonseca"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "836.403.761-70"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "PESSOA",
+  "value": "Maria da Barbosa Batista"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "CPF",
+  "value": "65827109150"
+ },
+ {
+  "file": "atendimentos.xlsx",
+  "kind": "SAUDE",
+  "value": ""
+ },
+ {
+  "file": "laudo_medico.docx",
+  "kind": "PESSOA",
+  "value": "Raimunda das Batista"
+ },
+ {
+  "file": "laudo_medico.docx",
+  "kind": "CPF",
+  "value": "778.507.925-05"
+ },
+ {
+  "file": "laudo_medico.docx",
+  "kind": "DATA_NASCIMENTO",
+  "value": "25/02/1991"
+ },
+ {
+  "file": "laudo_medico.docx",
+  "kind": "SAUDE",
+  "value": ""
+ },
+ {
+  "file": "laudo_medico.docx",
+  "kind": "BIOMETRICO",
+  "value": ""
+ },
+ {
+  "file": "laudo_medico.docx",
+  "kind": "TELEFONE",
+  "value": "21910421721"
+ },
+ {
+  "file": "laudo_medico.docx",
+  "kind": "EMAIL",
+  "value": "raimunda.batista@outlook.com"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "CNPJ",
+  "value": "08.635.365/0005-28"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "PESSOA",
+  "value": "Ana dos Nogueira Santos"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "CPF",
+  "value": "238.061.744-90"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "PESSOA",
+  "value": "Lucas de Silva"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "CNPJ",
+  "value": "49.493.759/0008-19"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "ENDERECO",
+  "value": "Alameda Elias Ximenes, 801"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "CEP",
+  "value": "64031-154"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "PESSOA",
+  "value": "Marcos das Silva"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "CPF",
+  "value": "064.138.367-33"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "PESSOA",
+  "value": "Francisca das Almeida Carvalho"
+ },
+ {
+  "file": "contrato_prestacao.docx",
+  "kind": "CPF",
+  "value": "865.719.182-26"
+ },
+ {
+  "file": "requerimento_sindical.docx",
+  "kind": "PESSOA",
+  "value": "Fernanda Batista"
+ },
+ {
+  "file": "requerimento_sindical.docx",
+  "kind": "SINDICATO",
+  "value": ""
+ },
+ {
+  "file": "requerimento_sindical.docx",
+  "kind": "POLITICA",
+  "value": ""
+ },
+ {
+  "file": "requerimento_sindical.docx",
+  "kind": "TELEFONE",
+  "value": "+55 89 95276-6161"
+ },
+ {
+  "file": "requerimento_sindical.docx",
+  "kind": "EMAIL",
+  "value": "CAMILA.ALMEIDA@HOTMAIL.COM"
+ },
+ {
+  "file": "ficha_funcionario.pdf",
+  "kind": "PESSOA",
+  "value": "Antônio Carvalho"
+ },
+ {
+  "file": "ficha_funcionario.pdf",
+  "kind": "CPF",
+  "value": "480.396.522-60"
+ },
+ {
+  "file": "ficha_funcionario.pdf",
+  "kind": "RG",
+  "value": "6925855"
+ },
+ {
+  "file": "ficha_funcionario.pdf",
+  "kind": "DATA_NASCIMENTO",
+  "value": "19/01/2000"
+ },
+ {
+  "file": "ficha_funcionario.pdf",
+  "kind": "ENDERECO",
+  "value": "Av. Desembargador Freitas, 2870"
+ },
+ {
+  "file": "ficha_funcionario.pdf",
+  "kind": "TELEFONE",
+  "value": "(85) 99064-9882"
+ },
+ {
+  "file": "ficha_funcionario.pdf",
+  "kind": "EMAIL",
+  "value": "ANTONIO.CARVALHO@GMAIL.COM"
+ },
+ {
+  "file": "ficha_funcionario.pdf",
+  "kind": "SEXUAL",
+  "value": ""
+ }
+]

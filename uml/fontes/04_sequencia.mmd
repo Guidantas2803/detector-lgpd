@@ -1,0 +1,37 @@
+%%{init: {"theme":"neutral","themeVariables":{"fontSize":"15px"}}}%%
+sequenceDiagram
+  actor A as Analista
+  participant C as CLI
+  participant S as Scanner
+  participant E as Extractors
+  participant D as Detectores (lista)
+  participant P as Report
+  A->>C: dlgpd scan pasta --out relatorio
+  C->>S: Scanner(use_ner, modelo, pseudonimizar_caminhos)
+  Note over S,D: lista padrão: Regex, Contexto e NER (se ativo)
+  C->>S: scan(pasta)
+  loop para cada arquivo da pasta
+    S->>D: detect_many(partes do caminho)
+    D-->>S: achados no nome do arquivo
+    S->>S: nome exibido = mascarado ou código ARQ-nnn
+    alt formato não suportado
+      S->>S: registra em "ignorados"
+    else formato suportado
+      S->>E: extract(arquivo)
+      alt erro de leitura (corrompido)
+        E-->>S: exceção
+        S->>S: registra em "ignorados"
+      else leitura ok
+        E-->>S: segmentos (arquivo, local, texto)
+        loop para cada detector da lista
+          S->>D: detect_many(segmentos)
+          D-->>S: achados (valor mascarado)
+        end
+        S->>S: resolve_overlaps (por local)
+      end
+    end
+  end
+  S-->>C: ScanResult
+  C->>P: write_all(resultado, pasta, formatos)
+  P-->>C: relatorio.xlsx, .html, .json (dados e nomes de arquivo mascarados)
+  C-->>A: resumo (arquivos, achados, ignorados, tempo)

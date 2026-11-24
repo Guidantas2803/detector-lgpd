@@ -1,0 +1,26 @@
+codigo,produto,quantidade,valor_unitario,fornecedor
+P0001,Papel A4,494,"R$ 71.261,62",Companhia de Água e Esgoto
+P0002,Cadeira,334,"R$ 26.874,46",Tribunal de Justiça do Estado do Piauí
+P0003,Toner,331,"R$ 8.887,21",Universidade Federal do Piauí
+P0004,Mesa,379,"R$ 93.970,14",Hospital Getúlio Vargas
+P0005,Cadeira,452,"R$ 23.137,60",Companhia de Água e Esgoto
+P0006,Caneta,480,"R$ 96.993,47",Secretaria Municipal de Educação
+P0007,Papel A4,153,"R$ 73.717,23",Tribunal de Justiça do Estado do Piauí
+P0008,Toner,233,"R$ 83.656,77",Companhia de Água e Esgoto
+P0009,Caneta,436,"R$ 65.579,44",Universidade Federal do Piauí
+P0010,Papel A4,170,"R$ 21.848,68",Câmara Municipal de Teresina
+P0011,Caneta,8,"R$ 95.445,47",Universidade Federal do Piauí
+P0012,Caneta,313,"R$ 82.515,64",Tribunal de Justiça do Estado do Piauí
+P0013,Papel A4,206,"R$ 86.197,33",Hospital Getúlio Vargas
+P0014,Cadeira,166,"R$ 32.106,43",Fundação Municipal de Saúde
+P0015,Caneta,229,"R$ 97.373,52",Câmara Municipal de Teresina
+P0016,Mesa,371,"R$ 74.111,43",Tribunal de Justiça do Estado do Piauí
+P0017,Caneta,32,"R$ 86.221,69",Câmara Municipal de Teresina
+P0018,Caneta,208,"R$ 88.614,49",Banco do Brasil S.A.
+P0019,Toner,189,"R$ 79.326,38",Hospital Getúlio Vargas
+P0020,Cadeira,79,"R$ 59.865,87",Tribunal de Justiça do Estado do Piauí
+P0021,Cadeira,360,"R$ 71.582,78",Universidade Federal do Piauí
+P0022,Caneta,349,"R$ 97.710,20",Companhia de Água e Esgoto
+P0023,Mesa,361,"R$ 47.179,82",Banco do Brasil S.A.
+P0024,Papel A4,425,"R$ 71.617,35",Hospital Getúlio Vargas
+P0025,Caneta,168,"R$ 67.552,24",Universidade Federal do Piauí
