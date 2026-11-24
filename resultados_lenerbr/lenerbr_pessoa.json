@@ -1,0 +1,54 @@
+{
+ "exato, todas as entidades PESSOA": {
+  "VP": 110,
+  "FP": 110,
+  "FN": 123,
+  "P": 0.5,
+  "R": 0.472,
+  "F1": 0.486,
+  "R_IC95": [
+   0.409,
+   0.536
+  ],
+  "P_IC95": [
+   0.434,
+   0.566
+  ]
+ },
+ "exato, apenas entidades com 2+ palavras": {
+  "VP": 110,
+  "FP": 110,
+  "FN": 90,
+  "P": 0.5,
+  "R": 0.55,
+  "F1": 0.524,
+  "R_IC95": [
+   0.481,
+   0.617
+  ],
+  "P_IC95": [
+   0.434,
+   0.566
+  ]
+ },
+ "brando (sobreposição, emparelhamento 1 a 1), todas as entidades PESSOA": {
+  "VP": 161,
+  "FP": 59,
+  "FN": 72,
+  "P": 0.732,
+  "R": 0.691,
+  "F1": 0.711,
+  "R_IC95": [
+   0.629,
+   0.747
+  ],
+  "P_IC95": [
+   0.67,
+   0.786
+  ]
+ },
+ "frases": 1389,
+ "predicoes": 220,
+ "entidades_gabarito": 233,
+ "entidades_gabarito_2mais_palavras": 200
+}

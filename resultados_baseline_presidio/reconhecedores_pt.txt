@@ -1,0 +1,10 @@
+CryptoRecognizer	pt	CRYPTO
+DateRecognizer	pt	DATE_TIME
+EmailRecognizer	pt	EMAIL_ADDRESS
+IbanRecognizer	pt	IBAN_CODE
+IpRecognizer	pt	IP_ADDRESS
+MedicalLicenseRecognizer	pt	MEDICAL_LICENSE
+MacAddressRecognizer	pt	MAC_ADDRESS
+PhoneRecognizer	pt	PHONE_NUMBER
+UrlRecognizer	pt	URL
+SpacyRecognizer	pt	LOCATION,PHONE_NUMBER,DATE_TIME,ID,NRP,ORGANIZATION,PERSON,AGE,EMAIL
